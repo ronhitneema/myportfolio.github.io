@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Ronhit Neema | Software Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[ronhitn], [ronhit], skill" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Ronhit Neema | Software Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="[Your name here] | Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Made using DevFolio Template" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="[Your name here] | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Made using DevFolio Template"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Ronhit Neema</span>
+          <br />
+          I'm the Software Developer.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/profile.png"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Hello, I'm Ronhit Neema, a computer science professional with a passion for technology and a drive to deliver results. With a Master's degree in Computer Science from Northeastern University and a Bachelor's degree from Vellore Institute of Technology, I have a solid educational foundation in the field.
+            </p>
+            <p class="about-wrapper__info-text">
+              As an experienced Software Engineer with more than 3 years of industry experience, I have worked on multiple projects, from developing a scalable and high-performance e-commerce platform to creating a scratch-like tool for implementing machine learning pipelines. I'm skilled in a variety of programming languages, frameworks, and cloud platforms, and have experience with databases and big data technologies.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="https://drive.google.com/file/d/1KhiPlQ7zuV1OIMAhLdRYNhvxaM2tcdid/view?usp=share_link" class="cta-btn cta-btn--resume">View Resume</a>
+              <a href="#contact" class="cta-btn cta-btn--resume">Contact</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Skills</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+        
+              <p class="project-wrapper__text-info">
+                <strong>Languages:</strong> Java, Python, C++, JavaScript</p>
+                <p class="project-wrapper__text-info"><strong>Cloud:</strong> AWS, Azure, Google Cloud Platform</p>
+                <p class="project-wrapper__text-info"><strong>Big Data:</strong> Hadoop, Spark, Kafka</p>
+                <p class="project-wrapper__text-info"><strong>Methodologies:</strong> Agile, Scrum</p>
+                <p class="project-wrapper__text-info"><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB</p>
+                <p class="project-wrapper__text-info"><strong>Frameworks:</strong> Spring, Hibernate, React, Angular, Node.js, Docker</p>
+                <p class="project-wrapper__text-info"><strong>Softwares:</strong> Kubernetes, Git, Jenkins, JIRA, Maven, Excel, Linux, Shell Scripting</p>
+              </p>
+      
+            </div>
+          </article>
+          <!-- /END Project -->
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+        <!--Experience Section-->
+        <section id="projects">
+          <div class="container">
+            <div class="project-wrapper">
+              <h2 class="section-title dark-blue-text">Experience</h2>
+    
+              <!-- Each .row is a project -->
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Khoury College of Computer Science</h3>
+                  <p class="project-wrapper__text-info">Graduate Teaching Assistant<p>
+                  <p class="project-wrapper__text-info">
+                    ◦ Reinforced student learning of skills and materials through daily and weekly office hours</p>
+                    <p class="project-wrapper__text-info">◦ Coordinated with professor in answering questions regarding elastic search and web crawlers, enabling to
+complete 95% of lessons on time
+                  </p>
+                </div>
+    
+                <div class="project-wrapper__image">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="thumbnail rounded">
+                      <img
+                        src="./assets/project.png"
+                        class="img-fluid"
+                        alt="Project Image"
+                        width="1366"
+                        height="767"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </article>
+              <!-- /END Project -->
+    
+              <!-- Each .row is a project -->
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Wolters KLuwer</h3>
+                  <p class="project-wrapper__text-info">Software Engineer II</p>
+                  <p class="project-wrapper__text-info">
+◦ Managed a 38 % rise in users by enhancing experience by accomplishing the latest WCAG Guidelines</p><p class="project-wrapper__text-info">
+◦ Developed monitoring tools to maintain stability platform leading to a 40 % increase in effectiveness</p><p class="project-wrapper__text-info">
+◦ Led development of a scalable and high-performance e-commerce platform using Java, Spring Boot, and MySQL</p><p class="project-wrapper__text-info">
+◦ Conducted security assessments and implemented OWASP security guidelines (Used the OWASP Top Ten)</p><p class="project-wrapper__text-info">
+◦ Contributed to a 15 % increase in sales for 2 years in a row through proactive software initiatives</p><p class="project-wrapper__text-info">
+◦ Achieved significant improvement in user experience by developing a scalable and performant API, reducing response time from 10 seconds to less than 1 second</p><p class="project-wrapper__text-info">
+◦ Implemented automated testing processes resulting in 50 % reduction in bugs</p><p class="project-wrapper__text-info">
+◦ Collaborated with cross-functional teams to identify and address disaster recovery issues in a timely manner</p><p class="project-wrapper__text-info">
+◦ Mentored 5 junior developers and conducted code reviews to assure adherence to best practices</p><p class="project-wrapper__text-info">
+◦ Ensured effective Agile ceremonies such as sprint planning, stand-up meetings, and retrospectives
+                  </p>
+                </div>
+
+                <div class="project-wrapper__image">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="thumbnail rounded">
+                      <img
+                        src="./assets/projectwk.png"
+                        class="img-fluid"
+                        alt="Project Image"
+                        width="1366"
+                        height="767"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </article>
+              <!-- /END Project -->
+    
+              <!-- Each .row is a project -->
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Indian Institute of Technology</h3>
+                  <p class="project-wrapper__text-info">Research Associate</p>
+                  <p class="project-wrapper__text-info">
+                    ◦ Engineered dataset for leaf images to learn a Naïve Bayes Model for classifying diseases to various severity types and proposed an occlusion technique to localize the disease region, in leaf disease detection model
+                  </p>
+                  <p class="project-wrapper__text-info">
+                    ◦ Applied deep learning for classification, segmentation and tracking of brain images from 3D spheroids at matrix interface to aid in brain damage recovery
+                  </p>
+                  </div>
+    
+                <div class="project-wrapper__image">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="thumbnail rounded">
+                      <img
+                        src="./assets/projectk.png"
+                        class="img-fluid"
+                        alt="Project Image"
+                        width="1366"
+                        height="767"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </article>
+              <!-- /END Project -->
+            </div>
+          </div>
+        </section>
+        <!-- End Projects Section -->
+    
+            <!--Projects Section-->
+        <section id="projects">
+          <div class="container">
+            <div class="project-wrapper">
+              <h2 class="section-title dark-blue-text">Projects</h2>
+    
+              <!-- Each .row is a project -->
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Vision - Multimedia Search Engine</h3>
+                  <p class="project-wrapper__text-info">
+                    ◦ Tech: NLP, Search Engine, Web Crawler, Multimedia Processing
+                  </p>
+                  <p class="project-wrapper__text-info">
+                    ◦ Research driven, open source, search engine that enables reverse multimedia search for small businesses. Tech: Python, NodeJS, Selenium, TensorFlow (October ’17)
+                </div>
+    
+                <div class="project-wrapper__image">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="thumbnail rounded">
+                      <img
+                        src="./assets/projectv.png"
+                        class="img-fluid"
+                        alt="Project Image"
+                        width="1366"
+                        height="767"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </article>
+              <!-- /END Project -->
+    
+              <!-- Each .row is a project -->
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Search Engines and Social Networks</h3>
+                  <p class="project-wrapper__text-info">
+                    ◦ Tech: Web Development, Web Crawler, Search
+                  </p>
+                  <p class="project-wrapper__text-info">
+                    ◦ Based on the idea of integrating Facebook and Google, we created social networks and search engines from scratch. Tech: PHP, MySQL, HTML, CSS, WebSockets, JavaScript, RSS, XML (May ’20)
+                </div>
+            
+    
+                <div class="project-wrapper__image">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="thumbnail rounded">
+                      <img
+                        src="./assets/projects.png"
+                        class="img-fluid"
+                        alt="Project Image"
+                        width="1366"
+                        height="767"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </article>
+              <!-- /END Project -->
+    
+              <!-- Each .row is a project -->
+              <article class="row">
+                <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">Panorama from Satellite Imagery using Distributed Computing</h3>
+                  <p class="project-wrapper__text-info">
+                    ◦ Tech: Distributed Computing, Image Processing
+                  </p>
+                  <p class="project-wrapper__text-info">
+                    ◦ Images clicked using drones, provided by ISRO were stitched together using distributed public compute nodes, effectively bringing down processing time exponentially. Tech: PHP, C++, Java, Python (March ’19)
+                </div>
+      
+    
+                <div class="project-wrapper__image">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <div class="thumbnail rounded">
+                      <img
+                        src="./assets/projectp.png"
+                        class="img-fluid"
+                        alt="Project Image"
+                        width="1366"
+                        height="767"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </article>
+              <!-- /END Project -->
+            </div>
+          </div>
+        </section>
+        <!-- End Projects Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Patents</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Self-Controlled Unmanned Aerial Vehicle System </h3>
+              <p class="project-wrapper__text-info">
+                About: The present invention relates to a self-controlled unmanned aerial vehicle system for farming applications and its working method thereof. The system comprises a cross-configured drone configured to take off upon receiving instructions from a ground control center and a transmitter for flying at a complete angle, wherein butterfly net wings are attached to the proximal ends of the drone. A serial communication controller configured with a GPS guidance unit is attached to receive real-time coordinates from a pre-loaded trajectory to navigate the drone. A remote sensing camera is positioned at a distal end of the drone to monitor plants closely and take images/videos in the desired frame under stable flight conditions configured to deliver image, audio, and video transmission to the control center. A prediction unit with a deep learning approach is used to diagnose the images to detect diseases and other problems of plants. The interface comprises preloaded location coordinates and control data via a mission plan script feature which sends a ground telemetry module to the aircraft's air telemetry module to avoid human interference in the flight control process.
+
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="http://pericles.ipaustralia.gov.au/ols/auspat/applicationDetails.do?applicationNo=2021105033" target="_blank" class="cta-btn text-color-main"
+                  >Link</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/projectd.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">IOT-Based Automatic Fish Disease Diagnosis System
+              </h3>
+              <p class="project-wrapper__text-info">
+                About: The farming fishery is one of the biggest sources of food in this world and the biggest source of employment. It is not possible to meet the demand using traditional methods of fishing. With the changing times fishing industry has adopted more innovative and efficient methods of raising and harvesting fishing in order to sustain the requirement. One such method is bio-floc technology, which is evolved to deal with wastewater management and maintain the biochemical cycle to maintain the nutrition level of aquatic life. The embodiment of the present invention provides an IOT-based automatic fish disease diagnosis system for bio-floc. The system comprises an image capturing unit, a data storage unit, a matching unit, a plurality of sensors, a central processing unit, an alert generating unit, and a display unit.
+
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://drive.google.com/file/d/1obeFCqqhubPY5rqWtAYCkXjQBQ60Tuyc/view?usp=share_link" target="_blank" class="cta-btn text-color-main"
+                  >Link</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/projectf.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+        <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Research Papers</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Automobile Insurance Processing using Deep Convolutional Networks</h3>
+              <p class="project-wrapper__text-info">
+                Journal Name: IOP Science, Journal of Physics: Conference Series</p><p class="project-wrapper__text-info">
+About: We focus on automating the task of automobile insurance processing using Deep Convolution Networks. In work, we show different methods that can be used in performing car damage analysis. Using transfer learning and variational Auto Encoders we have created four models, classification of car or not, classification of whether the vehicle is damaged or not, classification of where the damage has occurred and the severity of the damage respectively. This paper records the techniques we have employed to analyze car damage.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://iopscience.iop.org/article/10.1088/1742-6596/1783/1/012040" target="_blank" class="cta-btn text-color-main"
+                  >Link</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/projectc.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Analysis and Prediction of Healthcare Sector Stock Price Using Machine Learning Techniques: Healthcare Stock Analysis</h3>
+              <p class="project-wrapper__text-info">
+                Journal Name: International Journal of Information System Modeling and Design</p><p class="project-wrapper__text-info">
+About: The project focuses on creating a model that predicts the future price of a stock using various using machine learning algorithms like Linear Regression, RNN with GRU, Random Forest Regressor and Support Vector Regressor. The model plots graphs for the stock market price by each of these algorithms. The model is fitted to the dataset and trained from the data in it from the past four years to finally make predictions of the values of stocks in the future.
+
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://doi.org/10.4018/ijismd.303131" target="_blank" class="cta-btn text-color-main"
+                  >Link</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/projectstocks.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Voice Controlled Smart Wheelchair</h3>
+              <p class="project-wrapper__text-info">
+                Journal Name: Journal of Management Information and Decision Sciences</p><p class="project-wrapper__text-info">
+About: This project extends the functionality of a wheelchair, the way it is used, and also the advanced technology associated with it. Disabled and elderly individuals, mostly use wheelchairs to move from one point to another. To make their life somewhat simpler, the paper shows numerous improvements in wheel seats.
+
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://www.abacademies.org/articles/voice-controlled-smart-wheelchair.pdf" target="_blank" class="cta-btn text-color-main"
+                  >Link</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/projectwheel.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+                    <!-- Each .row is a project -->
+                    <article class="row">
+                      <div class="project-wrapper__text">
+                        <h3 class="project-wrapper__text-title">Forecasting Of Stock Market Trends Using Neural Network Techniques</h3>
+                        <p class="project-wrapper__text-info">
+                          Journal Name: Journal of Management Information and Decision Sciences</p><p class="project-wrapper__text-info">
+                            
+                            About: The task of predicting the future value of company stocks accurately is Stock Market prediction. Successfully estimating the future price of a stock will result in great profit. In this paper, we explore different kinds of non-linear models for predicting stock behavior. We would be implementing three popular algorithms for stock prediction namely – convolution neural network (CNN) using 1d convolution, Long Short-Term Memory (LSTM), and the recurrent neural network (RNN)
+                            
+          
+                        </p>
+                        <div class="project-wrapper__text-btns">
+                          <a href="https://www.abacademies.org/articles/forecasting-of-stock-market-trends-using-neural-network-techniques.pdf" target="_blank" class="cta-btn text-color-main"
+                            >Link</a
+                          >
+                        </div>
+                      </div>
+          
+                      <div class="project-wrapper__image">
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                          <div class="thumbnail rounded">
+                            <img
+                              src="./assets/projectstock.png"
+                              class="img-fluid"
+                              alt="Project Image"
+                              width="1366"
+                              height="767"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </article>
+                    <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Uni Email: neema.r@northeastern.edu</p>
+          <p class="contact-wrapper__text">Personal Email: ronhitn@gmail.com</p>
+          <p class="contact-wrapper__text">Call: +18573979752</p>
+          <a href="mailto:ronhitn@gmail.com" class="cta-btn cta-btn--resume">Write Email</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/ronhitn/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.researchgate.net/profile/Ronhit-Neema-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="codepen"
+          >
+            <i class="fa-brands fa-codepen"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ronhit-neema-28478394/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/ronhitneema"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
